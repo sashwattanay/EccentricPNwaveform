@@ -1,0 +1,29 @@
+#!/bin/sh
+#PBS -N mathematica
+#PBS -W umask=022
+#PBS -j oe
+#PBS -l ncpus=12
+#PBS -l mem=4gb
+#PBS -m abe
+#PBS -M stanay@go.olemiss.edu
+
+
+module load mathematica
+
+cd $PBS_O_WORKDIR
+math -script parameter_estimation_LO_3rd_copy.m
+math -script parameter_estimation_LO_another_copy.m
+math -script parameter_estimation_LO_copy.m
+math -script parameter_estimation_LO.m
+math -script parameter_estimation_NLO_3rd_copy.m
+math -script parameter_estimation_NLO_another_copy.m
+math -script parameter_estimation_NLO_copy.m
+math -script parameter_estimation_NLO.m
+math -script parameter_estimation_NNLO_3rd_copy.m
+math -script parameter_estimation_NNLO_another_copy.m
+math -script parameter_estimation_NNLO_copy.m
+math -script parameter_estimation_NNLO.m
+math -script parameter_estimation_NNNLO_3rd_copy.m
+math -script parameter_estimation_NNNLO_another_copy.m
+math -script parameter_estimation_NNNLO_copy.m
+math -script parameter_estimation_NNNLO.m

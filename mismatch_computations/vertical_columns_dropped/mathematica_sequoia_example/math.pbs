@@ -1,0 +1,15 @@
+#!/bin/sh
+#PBS -N mathematica
+#PBS -W umask=022
+#PBS -j oe
+#PBS -l ncpus=10
+#PBS -l mem=3gb
+#PBS -m abe
+#PBS -M stanay@go.olemiss.edu
+
+
+module load mathematica
+
+cd $PBS_O_WORKDIR
+math -script e0_4_6_dropped.m
+math -script e0_6_dropped.m

@@ -4,6 +4,7 @@ OBJECTIVE
 To study the convergence of post-Newtonian gravitational waveforms (as a bivariate series) from eccentric black-hole binaries
 
 
+
 INTRO
 
 The folder 'old_basic_codes' has older versions of the above codes. It has two kinds of codes (indicated by the file names):
@@ -20,6 +21,7 @@ But for the project we did not use these old codes. We modified the fast old cod
 up the slow codes.
 
 The non_astro_catalog folder helps create non_astro_catalog.dat which is an input file to my codes.
+
 
 
 HOW TO RUN THE CODES

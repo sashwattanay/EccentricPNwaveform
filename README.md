@@ -1,9 +1,11 @@
 # EccentricPNwaveform
 OBJECTIVE
+
 To study the convergence of post-Newtonian gravitational waveforms (as a bivariate series) from eccentric black-hole binaries
 
 
 INTRO
+
 The folder 'old_basic_codes' has older versions of the above codes. It has two kinds of codes (indicated by the file names):
 
 slow codes: Run slowly since no optimation has been done. But they are well commented.
@@ -21,6 +23,7 @@ The non_astro_catalog folder helps create non_astro_catalog.dat which is an inpu
 
 
 HOW TO RUN THE CODES
+
 Suppose we want to run fisher_computations/mathematica_sequoia_example/parameter_estimation_NLO.m. Copy this file in your 'home folder' for Mathemtica. Also, copy the file non_astro_catalog.dat to the home folder. Now you can the entire notebook. The same goes for notebooks in match_computations as well. 
 
 You will need to change the line "LaunchKernels[12]; " to "LaunchKernels[n]; " where n is the number of cores/processors you want to devote. 

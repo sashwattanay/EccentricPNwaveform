@@ -1,4 +1,7 @@
 # EccentricPNwaveform
+
+The following project was done using these codes: https://arxiv.org/abs/1905.08811
+
 OBJECTIVE
 
 To study the convergence of post-Newtonian gravitational waveforms (as a bivariate series) from eccentric black-hole binaries

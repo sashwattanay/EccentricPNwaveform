@@ -23,7 +23,7 @@ Why make two versions of the code (slow and fast)?: to ensure correctness of the
 But for the project we did not use these old codes. We modified the fast old codes (becasue our strategy changed slightly) to arrive at the codes in the directories 'fisher computations' and 'mismatch computations', which we used for the project. So, to understand these uncommented codes, go the corresponding slow codes in the folder 'old_basic_codes' and look
 up the slow codes.
 
-The non_astro_catalog folder helps create non_astro_catalog.dat which is an input file to my codes. The codes all have 3 harmonics whereas we considered 6 harmonics for the paper.
+The non_astro_catalog folder helps create non_astro_catalog.dat which is an input file to my codes. The codes all have 3 harmonics whereas we considered 6 harmonics for the paper. Extra harmonics can be added to these codes with the help of EccentricPNwaveformConvergence/old_basic_codes/auxiliary_mathematica_notebooks/xi_yunes-appendix.nb.
 
 
 
